@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SERVIS KOMPUTER</title>
+
+    <style>
+      /* INTERNAL CSS */
+
+      header {
+        background-color: #787378eb;
+        text-align: center;
+        padding: 15px 0;
+        color: white;
+      }
+
+      nav {
+        background-color: #383f47;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: rgb(252, 251, 251);
+        margin: 0 15px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+        color: rgb(233, 173, 54);
+      }
+
+      .hero {
+        text-align: center;
+        padding: 50px 0;
+        height: 300px;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        background: url(images\ \(2\).jpeg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px 0;
+      }
+
+      .services {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .service {
+        flex: 1;
+        min-width: 250px;
+        background: #31343ff4;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .service h3 {
+        color: #35fbe4;
+      }
+
+      form {
+        background: #2d393d;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      input,
+      textarea {
+        width: 99%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      button {
+        background: #060606;
+        color: rgb(22, 246, 246);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #036ca9;
+      }
+
+      footer {
+        text-align: center;
+        background: #333;
+        color: rgb(247, 245, 245);
+        padding: 10px 0;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>SERVIS KOMPUTER</h1>
+    </header>
+
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#layanan">Layanan</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section class="hero" id="beranda">
+      <h1>Selamat Datang di Website Kami</h1>
+      
+    </section>
+
+    <!-- LAYANAN -->
+    <section class="container" id="layanan">
+      <h2 style="text-align: center">Layanan Kami</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Servis Komputer</h3>
+          <p>Perbaikan komputer, laptop & perawatan rutin</p>
+          <img src="download (2).jpeg"style="width:100%; border-radius:10px;">
+        </div>
+
+        <div class="service">
+          <h3>Perakitan PC</h3>
+          <p>Merakit semua jenis PC</p>
+           <img src="download (3).jpeg"style="width:100%; border-radius:10px;">
+        </div>
+
+        <div class="service">
+          <h3>Servis printer</h3>
+          <p>Servis rutin,tinta bocor & perawatan lain nya</p>
+          <img src="download (4).jpeg"style="width:100%; border-radius:10px;">
+        </div>
+      </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section class="container" id="tentang">
+      <h2 style="text-align: center">Tentang Kami</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Visi</h3>
+          <p>
+            Memberikan servis yang cepat,
+            profesional, dan berkualitas.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Misi</h3>
+          <p>
+            Kami akan melayani keluh kesah anda dengan baik.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="container" id="kontak">
+      <h2 style="text-align: center">Hubungi Kami</h2>
+
+      <form action="">
+        <label>Nama</label>
+        <input type="text" placeholder="Masukkan nama Anda" required />
+
+        <label>Email</label>
+        <input type="email" placeholder="Masukkan email Anda" required />
+
+        <label>Pesan</label>
+        <textarea rows="5" placeholder="Masukkan pesan Anda" required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 SERVIS KOMPUTER</p>
+    </footer>
+  </body>
+</html>
